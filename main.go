@@ -72,9 +72,9 @@ func NextbikeTracker(db *sql.DB) {
 	ctx := context.Background()
 
 	eCargoBikes := []string{
-		"20090", "20091", "20092",
-		"20093", "20094", "20095",
-		"20096", "20097",
+		"20091",
+		"20095", "20096", "20111",
+		"20118", "20119",
 	}
 
 	client := &http.Client{
